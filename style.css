@@ -14,3 +14,12 @@ input[type="text"] {
 form {
     text-align: center;
 }
+
+li {
+    padding: 10px;
+}
+
+#adv {
+    background-color: blue;
+    color: white;
+}

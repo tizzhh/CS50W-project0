@@ -8,11 +8,27 @@
         <div style="text-align:right">
             <a href="index.html">Google Search</a>
         </div>
-        <div class="center">
+        <div class="center" style="justify-content: left">
             <form action="https://google.com/search" target="_blank">
-                <input type="text" name="q">
-                <br/><br/>
-                <input type="submit" value="Google Search">
+                <ul>
+                    <li>
+                        all these words:
+                        <input type="text" name="as_q">
+                    </li>
+                    <li>
+                        this exact word or phrase:
+                        <input type="text" name="as_epq">
+                    </li>
+                    <li>
+                        any of these words:
+                        <input type="text" name="as_oq">
+                    </li>
+                    <li>
+                        none of these words:
+                        <input type="text" name="as_eq">
+                    </li>
+                    <input id="adv" type="submit" value="Advanced Search">
+                </ul>
             </form>
         </div>
     </body>
