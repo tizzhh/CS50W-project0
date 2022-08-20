@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
     <!--I didn't know that these are reviewed manually, I just wanted to see my check50...-->
+    <!--I don't know how to delete a submission, so sorry for submitting it prematurely-->
     <head>
         <link rel="stylesheet" href="style.css">
         <title>Search</title>
     </head>
-    <body style="font-family: arial;">
+    <body>
         <div style="text-align:right">
             <a href="image.html">Image search</a>
             <a href="advanced.html">Advanced search</a>
         </div>
         <div class="center">
+            <img src="logo.png" style="margin-bottom: 250px">
+        </div>
+        <div class="center">
             <form id="index" action="https://google.com/search" target="_blank">
-                <input type="text" name="q" style="width: 550px">
-                <br/><br/>
+                <input id="input" type="text" name="q" style="width: 550px; height: 40px">
+                <br/><br/><br/>
                 <input type="submit" value="Google Search">
+                &nbsp
                 <input type="submit" name="btnI"  value="I'm Feeling Lucky">
             </form>
         </div>
