@@ -40,9 +40,6 @@ form {
     text-align: center;
 }
 
-li {
-    padding: 10px;
-}
 
 #adv {
     border-style: hidden;
@@ -50,17 +47,6 @@ li {
     background-color: #4d90fe;
     color: white;
     height: 35px;
-}
-
-
-ul {
-    list-style: none;
-    padding: 0px;
-    text-align: left;
-}
-
-li {
-    font-size: x-large;
 }
 
 input {
