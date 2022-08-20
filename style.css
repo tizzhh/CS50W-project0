@@ -6,6 +6,7 @@ body {
     position: absolute;
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
     height: 100%;
     width: 100%;
     justify-content: center;
@@ -13,11 +14,12 @@ body {
 
 input[type="text"] {
     border-radius: 20px 20px 20px 20px;
-    border-width: 1px;
+    border: 1px solid rgba(0, 0, 0, .2);
 }
 
 input[type="text"]:hover {
     box-shadow: 0px 2px 2px 0px;
+    color: grey;
 }
 
 input[type="submit"] {
@@ -42,9 +44,13 @@ li {
 }
 
 #adv {
-    background-color: blue;
+    border-style: hidden;
+    border-radius: 6px;
+    background-color: #4d90fe;
     color: white;
+    height: 35px;
 }
+
 
 ul {
     list-style: none;
@@ -61,9 +67,9 @@ input {
 }
 
 #input {
-    background: url(Google_Magnifying_Glass.svg.png) no-repeat 8px 12px;
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(Google_Magnifying_Glass.svg.png) no-repeat 8px 12px;
     background-size: 20px;
-    opacity: 0.5;
+    padding-left: 30px;
 }
 
 a {
@@ -75,4 +81,22 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+thead th:nth-child(1),tr td:nth-child(1){
+    text-align: left;
+}
+
+thead th:nth-child(2),tr td:nth-child(2){
+    text-align: center;
+}
+
+thead th:nth-child(3),tr td:nth-child(3){
+    text-align: left;
+    font-size: small;
+    color: grey
+}
+
+table input[type="text"] {
+    border-radius: 0px;
 }

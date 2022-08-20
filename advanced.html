@@ -8,27 +8,46 @@
         <div style="text-align:right">
             <a href="index.html">Google Search</a>
         </div>
-        <div class="center" style="justify-content: left">
+        <div class="center">
+            <img src="logo.png" style="margin-bottom: 270px">
+        </div>
+        <div class="center" style="justify-content: center">
             <form action="https://google.com/search" target="_blank">
-                <ul style="list-style: none">
-                    <li>
-                        all these words:
-                        <input type="text" name="as_q" style="margin-left: 94px">
-                    </li>
-                    <li>
-                        this exact word or phrase:
-                        <input type="text" name="as_epq">
-                    </li>
-                    <li>
-                        any of these words:
-                        <input type="text" name="as_oq" style="margin-left: 61px">
-                    </li>
-                    <li>
-                        none of these words:
-                        <input type="text" name="as_eq" style="margin-left: 51px">
-                    </li>
-                    <input id="adv" type="submit" value="Advanced Search" style="margin-left: 358px">
-                </ul>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="font-weight: normal">Find pages with...</th>
+                            <th style="width: 250px"></th>
+                            <th>To do this in the search box.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr></tr>
+                        <tr>
+                            <td>all these words:</td>
+                            <td><input type="text" name="as_q"></td>
+                            <td>Type the important words: tri-colour rat terrier</td>
+                        </tr>
+                        <tr>
+                            <td>this exact word or phrase:</td>
+                            <td><input type="text" name="as_epq"></td>
+                            <td>Put exact words in quotes: "rat terrier"</td>
+                        </tr>
+                        <tr>
+                            <td>any of these words:</td>
+                            <td><input type="text" name="as_oq"></td>
+                            <td>Type OR between all the words you want: miniature OR standard</td>
+                        </tr>
+                        <tr>
+                            <td>none of these words:</td>
+                            <td><input type="text" name="as_eq"></td>
+                            <td>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div style="text-align: right">
+                    <input id="adv" type="submit" value="Google Search">
+                </div>
             </form>
         </div>
     </body>
